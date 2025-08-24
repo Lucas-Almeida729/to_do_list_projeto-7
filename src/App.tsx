@@ -3,7 +3,7 @@ import type { Todo } from './types';
 import TodoForm from './components/TodoForm';
 import TodoList from './components/TodoList';
 import TodoCounter from './components/TodoCounter';
-import './App.css';
+import './App.css'; 
 
 function App() {
   const [todos, setTodos] = useState<Todo[]>([
