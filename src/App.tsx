@@ -35,7 +35,7 @@ function App() {
   return (
     <div className="app-container">
       <div className="todo-wrapper">
-        <h1>Atenas To-Do List</h1>
+        <h1>To-Do List</h1>
         <TodoForm addTodo={addTodo} />
         <TodoCounter todos={todos} />
         <TodoList
