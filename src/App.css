@@ -59,14 +59,17 @@ h1 {
 }
 
 .todo-counter {
-  text-align: center;
-  margin-bottom: 16px;
+  display: flex; /* Ativa o Flexbox */
+  justify-content: space-around; /* Distribui o espaço entre os itens */
+  margin-bottom: 20px;
   color: #555;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 16px;
 }
 
 .todo-counter span {
   font-weight: bold;
-  
+
 }
 
 .todo-item {
